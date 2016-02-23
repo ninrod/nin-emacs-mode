@@ -4,6 +4,7 @@
 # emacs mode is less surprising to new shell users
 bindkey -e
 
+
 ############# zsh escape code fixes #############
 # home key
 bindkey "^[[1~" beginning-of-line
@@ -20,3 +21,6 @@ bindkey "^?" backward-delete-char
 
 # numeric keypad return (enter)
 bindkey "${terminfo[kent]}" accept-line
+
+# fixing esc key behaviour
+bindkey -M emacs '\e' what-cursor-position
