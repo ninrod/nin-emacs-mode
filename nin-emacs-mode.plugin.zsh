@@ -24,3 +24,7 @@ bindkey "${terminfo[kent]}" accept-line
 
 # fixing esc key behaviour
 bindkey -M emacs '\e' what-cursor-position
+
+# jump words
+bindkey -M emacs '^[[C' emacs-forward-word
+bindkey -M emacs '^[[D' emacs-backward-word
