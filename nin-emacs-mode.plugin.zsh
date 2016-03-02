@@ -30,10 +30,10 @@ bindkey -M emacs '^[[C' emacs-forward-word
 bindkey -M emacs '^[[D' emacs-backward-word
 
 # Keypad
-# 0 . Enter
+# 0 .
 bindkey -s "^[Op" "0"
-bindkey -s "^[Ol" "."
-bindkey -s "^[OM" "^M"
+bindkey -s "^[On" "."
+
 # 1 2 3
 bindkey -s "^[Oq" "1"
 bindkey -s "^[Or" "2"
@@ -47,7 +47,7 @@ bindkey -s "^[Ow" "7"
 bindkey -s "^[Ox" "8"
 bindkey -s "^[Oy" "9"
 # + -  * /
-bindkey -s "^[Ok" "+"
-bindkey -s "^[Om" "-"
-bindkey -s "^[Oj" "*"
-bindkey -s "^[Oo" "/"
+bindkey -s "^[Ol" "+"
+bindkey -s "^[OS" "-"
+bindkey -s "^[OR" "*"
+bindkey -s "^[OQ" "/"
